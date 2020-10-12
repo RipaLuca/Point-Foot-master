@@ -126,6 +126,10 @@ namespace Point_Foot
             }
         }
 
-        
+        private void MenuItem_Click_Voir_Joueur(object sender, RoutedEventArgs e)
+        {
+            testFrame.Content = new ListeJoueur();
+            lblNom.Visibility = Visibility.Hidden;
+        }
     }
 }

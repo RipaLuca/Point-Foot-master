@@ -110,6 +110,9 @@
     <Compile Include="AdoCategorie.cs" />
     <Compile Include="AdoProfil.cs" />
     <Compile Include="AdoRole.cs" />
+    <Compile Include="ListeJoueur.xaml.cs">
+      <DependentUpon>ListeJoueur.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PageAdmin.xaml.cs">
       <DependentUpon>PageAdmin.xaml</DependentUpon>
     </Compile>
@@ -120,6 +123,10 @@
       <DependentUpon>PageJoueur.xaml</DependentUpon>
     </Compile>
     <Compile Include="Role.cs" />
+    <Page Include="ListeJoueur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
